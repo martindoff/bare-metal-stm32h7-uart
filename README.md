@@ -107,7 +107,7 @@ You need to install the following:
    make flash
    ```
 4. Disconnect the st-link V2 debugger and connect the board to a development computer with a USB TTL serial adapter according to the following schematics:
-<img src="https://github.com/martindoff/bare-metal-stm32h7-uart/stm32-uart.png" alt="Logo" width="300" height="300">
+<img src="https://github.com/martindoff/baremetal-stm32h7-uart/blob/main/stm32-uart.jpg" alt="Logo" width="300" height="300">
 
 5. Find the name of the COM port. In macOS, this can be found in the /dev directory and start by the prefix 
 `/dev/cu`. 
