@@ -109,7 +109,7 @@ You need to install the following:
 4. Disconnect the st-link V2 debugger and connect the board to a development computer with a USB TTL serial adapter according to the following schematics:
 <img src="https://github.com/martindoff/baremetal-stm32h7-uart/blob/main/stm32-uart.jpg" alt="Logo" width="300" height="300">
 
-5. Find the name of the COM port. In macOS, this can be found in the /dev directory and start by the prefix 
+5. Find the name of the COM port. In macOS, this can be found in the /dev directory and starts by the prefix 
 `/dev/cu`. 
 6. Configure the COM port. For example, using `minicom`: 
  ```sh
@@ -129,7 +129,7 @@ If you exit `minicom`, you can retrieve your configuration as explained in step 
    minicom config
    ```
 8. In the active `minicom` terminal, interact with the stm32h743 by typing a digit between 0 and 9 (any entry out of this range will be converted to 0 by the program running on the microcontroller).
-Observe the LED blink as many time as prompted (laptop -> stm32h743) and notice the message returned by the microcontroller (stm32h743 -> laptop).  
+Observe the LED blink as much time as prompted (laptop -> stm32h743) and notice the message returned by the microcontroller (stm32h743 -> laptop).  
 
 <!-- ROADMAP -->
 ## Roadmap
